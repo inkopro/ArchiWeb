@@ -37,9 +37,16 @@ body {
   --white: #FAFAFA;
 }
 
+.section__title,
+.title {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 51px;
+}
+
 /* header */
 .header {
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .header__top {
@@ -87,14 +94,58 @@ body {
 }
 
 .header__title {
-  font-size: 51px;
+  margin-bottom: 10px;
 }
 
 .header__descr {
   font-size: 32px;
+  font-weight: 200;
 }
 
 .header__bg {
-  position: absolute;
-  right: 0;
+  position: relative;
+  left: 290px;
+  top: 5px;
+}
+
+/* /header */
+
+/* services */
+.services {
+  background: rgba(37, 77, 77, 0.2);
+  padding: 16px 0 65px;
+}
+
+.section__title {
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.services__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__item {
+  width: 33%;
+  text-align: center;
+}
+
+.services__item__img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.services__item__title {
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+.services__item__descr {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 16px;
+  width: 158px;
+  margin: 0 auto;
 }
