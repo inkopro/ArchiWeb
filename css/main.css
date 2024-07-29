@@ -45,10 +45,6 @@ body {
 }
 
 /* header */
-.header {
-  /* height: 100vh; */
-}
-
 .header__top {
   display: flex;
   justify-content: space-between;
@@ -149,3 +145,35 @@ body {
   width: 158px;
   margin: 0 auto;
 }
+
+/* about */
+.about {
+  padding: 76px 0 95px;
+}
+
+.about__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section__title_left {
+  text-align: left;
+  margin-bottom: 27px;
+}
+
+.about__descr {
+  font-family: "Playfair Display", serif;
+  font-size: 31px;
+  width: 456px;
+  margin-bottom: 36px;
+}
+
+.about__link {
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--black);
+  text-decoration: none;
+}
+
+/* /about */
