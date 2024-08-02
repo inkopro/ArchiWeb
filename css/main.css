@@ -157,7 +157,7 @@ body {
   align-items: center;
 }
 
-.section__title_left {
+.section__title__about {
   text-align: left;
   margin-bottom: 27px;
 }
@@ -177,3 +177,60 @@ body {
 }
 
 /* /about */
+
+/* projects */
+.projects {
+  padding: 95px 0 90px;
+}
+
+.section__title__projects {
+  text-align-last: left;
+  margin-bottom: 70px;
+}
+
+.projects__iner {
+  display: grid;
+  justify-content: space-between;
+  gap: 85px;
+  grid-template-areas:
+    "one two three"
+    "four five six";
+}
+
+.projects__item__img {
+  margin-bottom: 13px;
+}
+
+.projects__item__descr {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  width: 178px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}
+
+/* /projects */
