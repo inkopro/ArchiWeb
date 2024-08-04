@@ -234,3 +234,37 @@ body {
 }
 
 /* /projects */
+
+/* testimonial */
+.testimonial {
+  padding: 90px 0 150px;
+}
+
+.section__title__testimonial {
+  margin-bottom: 78px;
+}
+
+.testimonial__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial__item {
+  display: flex;
+  gap: 30px;
+}
+
+.testimonial__title {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.testimonial__descr {
+  font-family: "Playfair Display", serif;
+  font-size: 17px;
+  width: 307px;
+}
+
+/* /testimonial */
