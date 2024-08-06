@@ -268,3 +268,69 @@ body {
 }
 
 /* /testimonial */
+
+/* footer */
+.footer {
+  padding: 47px 0 44px;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__item {}
+
+.footer__logo {
+  display: block;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.footer__descr {
+  font-size: 17px;
+  width: 287px;
+  margin-bottom: 60px;
+}
+
+.footer__social {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.footer__social__link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer__social__icon {
+  color: var(--white);
+}
+
+.footer__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer__list__item {
+  width: 201px;
+  margin-bottom: 10px;
+}
+
+.footer__list__link {
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* /footer */
