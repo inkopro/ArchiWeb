@@ -46,7 +46,8 @@ body {
 
 /* header */
 .header {
-  background-image: url('/img/header/header_bg.jpeg');
+  /* background-image: url('/img/header/header_bg.jpeg'); */
+  background-image: url('/img/header/header_bg.png');
   background-repeat: no-repeat;
   background-position: right bottom;
   height: 679px;
