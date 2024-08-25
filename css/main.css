@@ -70,7 +70,6 @@ body {
   width: 30px;
   height: 17px;
   cursor: pointer;
-  padding: 0;
 }
 
 .header__top__burger span {
@@ -80,6 +79,7 @@ body {
   background-color: var(--black);
   border-radius: 1px;
   top: 7px;
+  left: 0;
 }
 
 .header__top__burger span:nth-child(1) {
