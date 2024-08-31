@@ -25,6 +25,10 @@ body {
   box-sizing: border-box;
 }
 
+.lock {
+  overflow: hidden;
+}
+
 .container {
   max-width: 1440px;
   width: 100%;
@@ -550,7 +554,7 @@ body {
     transition: all .2s ease;
     top: 0;
     left: -100%;
-    /* overflow: hidden; */
+    overflow: auto;
   }
 
   .active {
